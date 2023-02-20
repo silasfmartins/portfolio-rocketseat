@@ -61,13 +61,13 @@ export default function Home() {
         <title>Silas Martins | Portfólio</title>
       </Head>
         <main>
-          <div className="flex justify-end py-4 px-16">
+          <div className="py-4 px-16">
             {renderThemeChanger()}
           </div>
           <div className="flex flex-col gap-[60px] mx-10 mb-10 max-w-[1120px] lg:flex-row">
             <aside>
               <Link href="/">
-                <div className="w-[30rem] sm:w-[40rem] md:w-[46rem] lg:max-w-sm max-h-[292px] p-10 rounded-[20px] bg-[#302F3D] flex justify-center text-center items-center flex-col shadow-sm">
+                <div className="w-[26rem] sm:w-[36rem] lg:max-w-sm max-h-[292px] p-10 rounded-[20px] bg-[#302F3D] flex justify-center text-center items-center flex-col shadow-sm">
                   <figure className="mb-[30px]">
                     <Image className="max-w-[128px] max-h-32 rounded-full" src={photo} alt= "Imagem de Silas" />
                     <figcaption className="hidden">Imagem de Silas</figcaption>
@@ -76,7 +76,7 @@ export default function Home() {
                   <span className="font-merriweather text-[13px] font-light text-[#837E9F]">Front End Developer</span>
                 </div>
               </Link>
-              <div className="w-[30rem] sm:w-[40rem] md:w-[46rem] lg:max-w-sm max-h-[348px] p-10 rounded-[20px] bg-[#302F3D] flex justify-left text-left items-left flex-col mt-[30px] gap-4 shadow-sm">
+              <div className="w-[26rem] sm:w-[36rem] lg:max-w-sm max-h-[348px] p-10 rounded-[20px] bg-[#302F3D] flex justify-left text-left items-left flex-col mt-[30px] gap-4 shadow-sm">
                 <Links
                   href="/"
                   image={mapPin}
@@ -109,7 +109,7 @@ export default function Home() {
                 />
               </div>
               <Link href="/">
-                <div className="w-[30rem] sm:w-[40rem] md:w-[46rem] lg:max-w-sm max-h-60 p-10 rounded-[20px] bg-[#302F3D] flex flex-col justify-left text-left items-left mt-[30px] gap-4 shadow-sm">
+                <div className="w-[26rem] sm:w-[36rem] lg:max-w-sm max-h-60 p-10 rounded-[20px] bg-[#302F3D] flex flex-col justify-left text-left items-left mt-[30px] gap-4 shadow-sm">
                   <Subtitle
                     text="Tecnologias"
                   />
@@ -148,13 +148,13 @@ export default function Home() {
                 </div>
               </Link>
             </aside>
-            <div className="flex flex-col w-[32rem] sm:w-[46rem] md:w-[48rem] lg:w-[832px] items-center text-center">
+            <div className="flex flex-col w-[26rem] sm:w-[36rem] lg:w-[832px] items-center">
               <Sections
                 href="https://github.com/silasfmartins?tab=repositories"
                 title="My Projects"
                 text="Veja todos"
               />
-              <div className="w-[30rem] sm:w-[40rem] md:w-[46rem] lg:w-[832px] max-w-[832px] flex gap-4">
+              <div className="flex-col lg:flex-row w-[26rem] sm:w-[36rem] lg:w-[832px] max-w-[832px] flex gap-4">
                 <Project 
                   href="https://github.com/silasfmartins/feedback-widget"
                   title="feedback-widget"
