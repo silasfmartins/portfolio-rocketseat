@@ -21,7 +21,7 @@ import github from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
 import mail from '../assets/mail.svg';
 import mapPin from '../assets/map-pin.svg';
-import photo from '../assets/photo.jpg';
+import photo from '../assets/photo.png';
 
 export default function Home() {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -67,7 +67,7 @@ export default function Home() {
           <div className="flex flex-col gap-[60px] mx-10 mb-10 max-w-[1120px] lg:flex-row">
             <aside>
               <Link href="/">
-                <div className="w-[30rem] sm:w-[40rem] md:w-[46rem] lg:max-w-[348px] max-h-[292px] p-10 rounded-[20px] bg-[#302F3D] flex justify-center text-center items-center flex-col shadow-sm">
+                <div className="w-[30rem] sm:w-[40rem] md:w-[46rem] lg:max-w-sm max-h-[292px] p-10 rounded-[20px] bg-[#302F3D] flex justify-center text-center items-center flex-col shadow-sm">
                   <figure className="mb-[30px]">
                     <Image className="max-w-[128px] max-h-32 rounded-full" src={photo} alt= "Imagem de Silas" />
                     <figcaption className="hidden">Imagem de Silas</figcaption>
@@ -76,7 +76,7 @@ export default function Home() {
                   <span className="font-merriweather text-[13px] font-light text-[#837E9F]">Front End Developer</span>
                 </div>
               </Link>
-              <div className="w-[30rem] sm:w-[40rem] md:w-[46rem] lg:max-w-[348px] max-h-[348px] p-10 rounded-[20px] bg-[#302F3D] flex justify-left text-left items-left flex-col mt-[30px] gap-4 shadow-sm">
+              <div className="w-[30rem] sm:w-[40rem] md:w-[46rem] lg:max-w-sm max-h-[348px] p-10 rounded-[20px] bg-[#302F3D] flex justify-left text-left items-left flex-col mt-[30px] gap-4 shadow-sm">
                 <Links
                   href="/"
                   image={mapPin}
@@ -98,9 +98,9 @@ export default function Home() {
                   text="silas-martins"
                 />
                 <Links
-                  href="/"
+                  href="https://silasmartins.vercel.app/"
                   image={globe}
-                  text="silasmartins.com.br"
+                  text="silasmartins.vercel.app"
                 />
                 <Links
                   href="mailto:silas.martins2041@gmail.com"
@@ -109,19 +109,40 @@ export default function Home() {
                 />
               </div>
               <Link href="/">
-                <div className="w-[30rem] sm:w-[40rem] md:w-[46rem] lg:max-w-[348px] max-h-[208px] p-10 rounded-[20px] bg-[#302F3D] flex flex-col justify-left text-left items-left mt-[30px] gap-4 shadow-sm">
+                <div className="w-[30rem] sm:w-[40rem] md:w-[46rem] lg:max-w-sm max-h-60 p-10 rounded-[20px] bg-[#302F3D] flex flex-col justify-left text-left items-left mt-[30px] gap-4 shadow-sm">
                   <Subtitle
                     text="Tecnologias"
                   />
-                  <div className="flex justify-left text-center items-center gap-4">
-                    <Technologies
-                      text="JAVASCRIPT"
-                    />
+                  <div className="flex items-center gap-2 flex-wrap">
                     <Technologies 
                       text="HTML"
                     />
                     <Technologies 
                       text="CSS"
+                    />
+                    <Technologies 
+                      text="TAILWIND CSS"
+                    />
+                    <Technologies
+                      text="JAVASCRIPT"
+                    />
+                    <Technologies
+                      text="TYPESCRIPT"
+                    />
+                    <Technologies
+                      text="REACT"
+                    />
+                    <Technologies
+                      text="NODE JS"
+                    />
+                    <Technologies
+                      text="VITE"
+                    />
+                    <Technologies
+                      text="NEXT JS"
+                    />
+                    <Technologies
+                      text="GIT"
                     />
                   </div>
                 </div>
