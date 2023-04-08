@@ -33,6 +33,10 @@ Em seguida, inicie o projeto.
 ```cl
 npm run dev
 ```
+ou 
+```cl
+yarn dev
+```
 
 ## 🆚 Versionamento / Versioning
 
