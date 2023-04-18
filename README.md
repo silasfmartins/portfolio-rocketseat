@@ -19,6 +19,7 @@ Site exemplifica um site de portfolio sem grandes features.
 -   [ x ] Typescript
 -   [ x ] React
 -   [ x ] Tailwind
+-   [ x ] NextJS
 
 
 ## :hammer_and_wrench: Features 
